@@ -1,0 +1,149 @@
+.header
+{        
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0px-150px;
+        color: white;
+        padding: 15px;
+        margin-bottom: 20px;
+             
+}
+   
+.header_area{
+    padding: 20px;
+    margin: 0px;
+}
+.card-text p
+{   padding: 10px;
+    color: rgb(241, 30, 30) !important; 
+    align-self: center;
+    text-align: justify;
+    
+}
+
+body{
+    background-color:white;
+    margin: 0px;
+    padding: 0px;    
+}
+
+/*coloca o menu no centro*/
+.memu_area{
+    margin-top: 50px;
+    margin-left: 0rem;
+}
+
+/* altera cada componete do menu*/
+.memu_area nav a{
+    background-color: #2e6e12;
+    color:white;
+    margin-bottom: 10px; 
+    margin: 20px;
+}
+
+.memu_area nav a:hover{
+    background-color: #ec4a0a;
+}
+
+/* altera o que é ativado
+.active{
+    color: black !important;
+    background-color: #e2cc53 !important;
+    
+}*/
+
+.logo{
+    width: 200px;
+    
+}   
+
+.carousel-caption h1{
+
+    position: absolute; 
+    top: -50px; 
+    left: 20px; 
+    width: 100%;    
+    color:white; 
+    font-size:1.5em; 
+    text-align: center;  
+
+}
+
+.carousel-item img
+{
+    text-align: center;      
+    padding-left: 2em;
+    padding-right: 20px;
+    padding-bottom: 1em;
+    
+           
+}
+
+
+
+p{
+    text-align: justify;
+}
+
+
+.card-title
+{
+    color: #e69226;
+}
+
+.cartao{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    margin-right: 5em;
+    margin-bottom: 0em;
+    
+    
+}
+
+.main .card{
+    margin-bottom: 15px;
+}
+
+.main_area{
+    margin-bottom: 20px;
+}
+
+
+.memu_area2{
+    margin-top: 30px;
+    width: 100%;
+}
+
+/*menu 2 botoes*/
+.memu_area2 nav a{
+    background-color: #eea010;
+    color:white;
+    margin-bottom: 10px;
+}
+
+.memu_area2 nav a:hover{
+    background-color: #eeb868;
+}
+
+.card p:hover
+{
+    text-decoration: underline; 
+    cursor: pointer;
+    color: orangered;
+    
+}
+
+.card-text texto h5{
+    color: #2e6e12;
+
+}
+.footer{
+    margin-top: 10px;
+    background-color: #2e6e12;
+    color: white;
+}
+.footer_area{
+    padding: 20px;
+    text-align: center  ;
+}

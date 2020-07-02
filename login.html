@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="estiloCadastro.css" />
+</head>
+<body>
+  <div class="container" >
+    <div class="content">      
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        <p>
+          <a href="index.html"> Página Inicial</a>
+        </p>
+        <form method="post" action="" onsubmit="Login(event)"> 
+          <h1>Login</h1> 
+          <p> 
+            <label for="txtEmail">Seu Email</label>
+            <input id="txtEmail" name="txtEmail" required="required" type="text" placeholder="ex. contato@htmlecsspro.com"/>
+          </p>
+          <p> 
+            <label for="txtSenha">Sua senha</label>
+            <input id="txtSenha" name="txtSenha" required="required" type="password" placeholder="ex. senha" /> 
+          </p>
+           
+          <p> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me logado</label>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Logar" /> 
+          </p>
+           
+          <p class="link">
+            Ainda não tem conta?
+            <a href="cadastro.html">Cadastre-se</a>
+          </p>
+        </form>
+      </div>
+
+    </div>
+    <table>
+			<tbody id="tbodyResultados"></tbody>
+			<tfoot></tfoot>
+		</table>
+  </div> 
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="funcoes.js"></script>
+</body>
+</html>
