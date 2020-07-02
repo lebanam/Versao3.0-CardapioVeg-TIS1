@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <title>Cardápio Vegetariano</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+    crossorigin="anonymous"></script>    <script src="receitas.js"></script> 
+    <script src="scripts.js"></script> 
+</head>
+
+
+<body>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalCenterTitle">Modo de preparo: </h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                <h4> Ingredientes:<br></h4>
+                    <p> 1 ovo <br>
+                        2 colheres de sopa de leite em pó <br>
+                        6 colheres de sopa de amido de milho <br>
+                        1 pitada de sal <br>
+                        +/- 150g. de ricota temperada<br>
+                        Molho de tomate e queijo ralado para servir<br></p>
+
+                <h4> Modo de fazer:<br></h4>
+
+                    <p>Para a massa, bata o ovo com um batedor de arame (fouet) até que comece a espumar.<br>
+                        Adicione o leite em pó, a água, e o amido de milho a
+                        bem para que a massa fique homogênea.Por fim, acrescente o sal.<br> 
+                        Aqueça uma frigideira antiaderente de 18 cm de diâmetro em fogo baixo e unte-a com algumas gotas
+                        de óleo.<br> Despeje 1 concha da massa 
+                        e gire-a até que a massa cubra toda a superfície.<br>
+                        Quando a massa começar a soltar das bordas, vire-a com o auxílio de uma espátula. Mantenha na
+                        frigideira até o disco estiver levemente dourado<br>
+                        Repita a operação com o restante da massa (deve render 4 discos, que podem ser
+                        congelados depois de prontos).<br>
+                        Na hora de servir, recheie com a ricota temperada ou com os ingredientes de sua preferência
+                        (queijo, cenoura, tomate, pimentão) e sirva com seu molho preferido<br>
+                        Se quiser, leve ao forno para gratinar com
+                        um pouquinho de queijo ralado por cima.<br>
+                        Dica: você também pode congelar as panquecas já recheadas com um pouquinho mais de molho que
+                        você usaria para servir. 
+                        <br>Retire do congelador até descongelar na geladeira por pelo menos 1 hora e depois leve ao forno ou ao microondas com um
+                        pouquinho de queijo por cima até aquecer.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header class="container header">
+
+        <div class="row">
+
+            <div class="col-12 header_area">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-2">
+                        <img src="imagens/logo.jpg" class="logo">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-8 col-lg-10 memu_area">
+                        <nav class="nav nav-pills flex-column flex-sm-row">
+                            <a class="flex-sm-fill text-sm-center nav-link" href="https://br.pinterest.com/acasaencantada/pastas-%2B-molhos-veganos/" target="_blank">Saladas e Molhos</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="https://www.buzzfeed.com/br/davirocha/receitas-de-macarrao-vegetarianas-maravilhosas" target="_blank">Massas</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="https://escolhaveg.com.br/blog/16-receitas-de-sopas-veganas-para-te-aquecer-nesse-inverno/" target="_blank">Sopas</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href= cadastro.html>Cadastre-se</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href= login.html>Login</a>
+                            <a class="flex-sm-fill text-sm-center nav-link" href="fale_conosco.html" target="_blank">Fale conosco</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <section class="carrousel-1">
+
+        <div class="row">
+
+            <div class="col-12">
+
+                <!--Coluna do carrosel -->
+                <div class="row main_area">
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="imagens/porque.jpg" class="d-block w-100" alt="Descrição 1">
+
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="imagens/dicas.jpg" class="d-block w-100" alt="Descrição 2">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="imagens/bg1.jpg" class="d-block w-100" alt="Descrição 3">
+                                </div>
+                            </div>
+
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+
+                        <div class="card">
+                            <div class="cartao">
+                                <p class="card-text">
+                                <h5>Por que não consumir carne?</h5>
+                                O custo ambiental da carne é um dos maiores problemas que pressiona
+                                o planeta terra. Existem cálculos que permitem estabelecer uma relação entre o
+                                consumo de carne e a saúde do planeta. Cada produto animal tem seu custo e este
+                                geralmente não é barato.<br>
+
+                                <br> No Brasil 1 quilo de carne bovina é responsável por 10 mil metros quadrados de
+                                floresta desmatada, o uso de 15 mil litros de água e o despejo de elementos
+                                químicos provenientes de fertilizantes e agrotóxicos.<br>
+
+                                <br> No Brasil tem um boi para cada habitante e a metade das emissões de gases
+                                estufa do Brasil é proveniente da pecuária, está foi a conclusão dos estudos realizados na
+                                Universidade de Brasília(UnB) e do Instituto Nacional de Pesquisas Espaciais(INPE) e
+                                da ONG Amigos da Terra.<br>
+
+                                <br>A pecuária ocupa 75% das terras aráveis do planeta, principalmente para pastagem e
+                                produção de ração.<br>
+
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+
+
+    <main class="container main">
+
+        <div class="row">
+
+            <div class="col-12">
+
+
+                <!--Card de anuncio-->
+
+                <div class="row">
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+
+                        <div class="card" style="width: 32.5rem;">
+                            <img src="imagens/panqueca.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                             <a class="card-text" href="https://www.cozinhandopara2ou1.com.br/2014/05/12/panquecas-sem-gluten-de-ricota-temperada-2/" target="_blank">Panquecas sem glúten de ricota temperada </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+
+                        <div class="card" style="width: 32.5rem;">
+                            <img src="imagens/strogonoff.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a class="card-text" href="https://www.tudogostoso.com.br/receita/118683-estrogonofe-de-carne-de-soja.html"target="_blank">Strogonoff de carne de soja</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+
+                        <div class="card" style="width: 32.5rem;">
+                            <img src="imagens/cogumelo.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a class="card-text" href="https://www.cozinhandopara2ou1.com.br/2015/04/13/shitake-recheado-com-creme-de-brocolis/">Cogumelos shitake recheados com creme de brócolis</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+
+                        <div class="card" style="width: 32.5rem;">
+                            <img src="imagens/espaguete.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a class="card-text" href="https://www.tudogostoso.com.br/receita/12859-espaguete-ao-molho-funghi.html" target="_blank">Espaguete ao molho funghi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+
+                        <div class="card" style="width: 32.5rem;">
+                            <img src="imagens/arrozbrocolis.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a class="card-text" href="https://www.tudogostoso.com.br/receita/1148-arroz-de-brocolis.html" target="_blank">Arroz de brócolis super fácil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+
+                        <div class="card" style="width: 32.5rem;">
+                            <img src="imagens/talharim.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <a class="card-text" href="https://www.panelinha.com.br/receita/Talharim-com-brocolis-assado-ao-alho-e-oleo" target="_blank">Talharim integral com brócolis assado ao alho e óleo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div id="receitas-json">
+
+                </div>
+
+            </div>
+        </div>      
+        
+        <!--Card de anuncio-->               
+
+                
+    </main>
+
+    <footer class="container footer">
+
+        <div class="row">
+
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 footer_area">
+                Copyright - Laís Helena - 2020
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
